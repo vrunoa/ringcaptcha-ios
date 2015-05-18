@@ -11,5 +11,9 @@
 @interface ViewController : UIViewController
 
 
+- (IBAction) getLog:(id) sender;
+- (IBAction)clearLog:(id)sender;
+- (IBAction)login:(id)sender;
+
 @end
 
