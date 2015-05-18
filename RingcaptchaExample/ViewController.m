@@ -33,7 +33,7 @@
 
 - (IBAction)clearLog:(id)sender {
     
-
+    [Ringcaptcha clearLog];
 }
 
 - (IBAction)login:(id)sender {

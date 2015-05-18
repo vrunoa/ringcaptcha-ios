@@ -15,8 +15,7 @@
 		013FF9C11B0A209C004202A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013FF9BF1B0A209C004202A8 /* LaunchScreen.xib */; };
 		013FF9D71B0A219C004202A8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FF9D61B0A219C004202A8 /* CoreTelephony.framework */; };
 		013FF9D91B0A21A4004202A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FF9D81B0A21A4004202A8 /* SystemConfiguration.framework */; };
-		013FF9DB1B0A21AF004202A8 /* Ringcaptcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FF9DA1B0A21AF004202A8 /* Ringcaptcha.framework */; };
-		013FF9DD1B0A21C4004202A8 /* Ringcaptcha.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 013FF9DC1B0A21C4004202A8 /* Ringcaptcha.bundle */; };
+		013FF9E21B0A3DEF004202A8 /* Ringcaptcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013FF9E11B0A3DEF004202A8 /* Ringcaptcha.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +33,7 @@
 		013FF9CC1B0A209C004202A8 /* RingcaptchaExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingcaptchaExampleTests.m; sourceTree = "<group>"; };
 		013FF9D61B0A219C004202A8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		013FF9D81B0A21A4004202A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		013FF9DA1B0A21AF004202A8 /* Ringcaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ringcaptcha.framework; path = RingcaptchaExample/Ringcaptcha.framework; sourceTree = "<group>"; };
-		013FF9DC1B0A21C4004202A8 /* Ringcaptcha.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Ringcaptcha.bundle; path = RingcaptchaExample/Ringcaptcha.bundle; sourceTree = "<group>"; };
+		013FF9E11B0A3DEF004202A8 /* Ringcaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ringcaptcha.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013FF9DB1B0A21AF004202A8 /* Ringcaptcha.framework in Frameworks */,
+				013FF9E21B0A3DEF004202A8 /* Ringcaptcha.framework in Frameworks */,
 				013FF9D91B0A21A4004202A8 /* SystemConfiguration.framework in Frameworks */,
 				013FF9D71B0A219C004202A8 /* CoreTelephony.framework in Frameworks */,
 			);
@@ -55,8 +53,7 @@
 		013FF9A41B0A209B004202A8 = {
 			isa = PBXGroup;
 			children = (
-				013FF9DC1B0A21C4004202A8 /* Ringcaptcha.bundle */,
-				013FF9DA1B0A21AF004202A8 /* Ringcaptcha.framework */,
+				013FF9E11B0A3DEF004202A8 /* Ringcaptcha.framework */,
 				013FF9D81B0A21A4004202A8 /* SystemConfiguration.framework */,
 				013FF9D61B0A219C004202A8 /* CoreTelephony.framework */,
 				013FF9AF1B0A209B004202A8 /* RingcaptchaExample */,
@@ -173,7 +170,6 @@
 			files = (
 				013FF9BC1B0A209C004202A8 /* Main.storyboard in Resources */,
 				013FF9C11B0A209C004202A8 /* LaunchScreen.xib in Resources */,
-				013FF9DD1B0A21C4004202A8 /* Ringcaptcha.bundle in Resources */,
 				013FF9BE1B0A209C004202A8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +298,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RingcaptchaExample",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RingcaptchaExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -316,6 +313,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RingcaptchaExample",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RingcaptchaExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
