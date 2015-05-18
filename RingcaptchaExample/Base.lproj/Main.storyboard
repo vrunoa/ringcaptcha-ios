@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aN4-OW-7Q4">
+                                <rect key="frame" x="79" y="80" width="162" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="162" id="8gc-qW-74m"/>
+                                </constraints>
+                                <state key="normal" title="Get onboard">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQY-A3-k9f">
+                                <rect key="frame" x="79" y="118" width="162" height="30"/>
+                                <state key="normal" title="Get logs">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14i-91-dNz">
+                                <rect key="frame" x="79" y="156" width="162" height="30"/>
+                                <state key="normal" title="Clear logs">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZQY-A3-k9f" firstAttribute="trailing" secondItem="aN4-OW-7Q4" secondAttribute="trailing" id="3fL-zU-LyE"/>
+                            <constraint firstItem="14i-91-dNz" firstAttribute="trailing" secondItem="ZQY-A3-k9f" secondAttribute="trailing" id="9e6-QC-YZs"/>
+                            <constraint firstItem="aN4-OW-7Q4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="AbI-l2-Reg"/>
+                            <constraint firstItem="14i-91-dNz" firstAttribute="leading" secondItem="ZQY-A3-k9f" secondAttribute="leading" id="Iz9-u5-iN2"/>
+                            <constraint firstItem="aN4-OW-7Q4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b3T-6C-Hfh"/>
+                            <constraint firstItem="ZQY-A3-k9f" firstAttribute="top" secondItem="aN4-OW-7Q4" secondAttribute="bottom" constant="8" symbolic="YES" id="hVl-5Z-rkO"/>
+                            <constraint firstItem="14i-91-dNz" firstAttribute="top" secondItem="ZQY-A3-k9f" secondAttribute="bottom" constant="8" symbolic="YES" id="sUd-hf-bIH"/>
+                            <constraint firstItem="ZQY-A3-k9f" firstAttribute="leading" secondItem="aN4-OW-7Q4" secondAttribute="leading" id="vYb-e0-4Kv"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
