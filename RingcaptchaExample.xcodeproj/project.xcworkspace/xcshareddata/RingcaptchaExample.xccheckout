@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>8D3A1118-A1D5-4E3B-989A-C548463CDDB4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>RingcaptchaExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>26D83B1FA55ADCD202EF45D212B5CCB3E8048B20</key>
 		<string>https://github.com/vrunoa/ringcaptcha-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RingcaptchaExample.xcodeproj/project.xcworkspace</string>
+	<string>RingcaptchaExample.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>26D83B1FA55ADCD202EF45D212B5CCB3E8048B20</key>

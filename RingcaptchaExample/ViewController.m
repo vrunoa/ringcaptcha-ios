@@ -51,6 +51,7 @@
                                      NSLog(@"Verification process cancelled? %d", verification.verificationSuccessful);
                                  }];
     
+    
 }
 
 @end
