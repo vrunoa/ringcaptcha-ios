@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		013A9A691B0B8C1600495A7C /* Ringcaptcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A9A681B0B8C1600495A7C /* Ringcaptcha.framework */; };
-		013A9A6B1B0B8C2C00495A7C /* Ringcaptcha.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 013A9A6A1B0B8C2C00495A7C /* Ringcaptcha.bundle */; };
+		013A9A741B0B953A00495A7C /* Ringcaptcha.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 013A9A731B0B953A00495A7C /* Ringcaptcha.bundle */; };
 		013FF9B31B0A209B004202A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013FF9B21B0A209B004202A8 /* main.m */; };
 		013FF9B61B0A209B004202A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013FF9B51B0A209B004202A8 /* AppDelegate.m */; };
 		013FF9B91B0A209B004202A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013FF9B81B0A209B004202A8 /* ViewController.m */; };
@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		013A9A681B0B8C1600495A7C /* Ringcaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ringcaptcha.framework; sourceTree = "<group>"; };
-		013A9A6A1B0B8C2C00495A7C /* Ringcaptcha.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Ringcaptcha.bundle; sourceTree = "<group>"; };
 		013A9A6D1B0B8C5D00495A7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		013A9A731B0B953A00495A7C /* Ringcaptcha.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Ringcaptcha.bundle; sourceTree = "<group>"; };
 		013FF9AD1B0A209B004202A8 /* RingcaptchaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingcaptchaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		013FF9B11B0A209B004202A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		013FF9B21B0A209B004202A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		013FF9A41B0A209B004202A8 = {
 			isa = PBXGroup;
 			children = (
-				013A9A6A1B0B8C2C00495A7C /* Ringcaptcha.bundle */,
+				013A9A731B0B953A00495A7C /* Ringcaptcha.bundle */,
 				013A9A681B0B8C1600495A7C /* Ringcaptcha.framework */,
 				013FF9D81B0A21A4004202A8 /* SystemConfiguration.framework */,
 				013FF9D61B0A219C004202A8 /* CoreTelephony.framework */,
@@ -169,7 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013A9A6B1B0B8C2C00495A7C /* Ringcaptcha.bundle in Resources */,
+				013A9A741B0B953A00495A7C /* Ringcaptcha.bundle in Resources */,
 				013FF9BC1B0A209C004202A8 /* Main.storyboard in Resources */,
 				013FF9BE1B0A209C004202A8 /* Images.xcassets in Resources */,
 			);
@@ -298,6 +298,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 			};
 			name = Debug;
 		};
@@ -314,6 +315,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 			};
 			name = Release;
 		};
